@@ -2,9 +2,11 @@
 	font-size: 16px;
 	font-family: 'Noto Sans', sans-serif;
 	--text-primary: #ffffff;
-	--text-secondary: #25d366;
-	--bg-primary: #2d2d2d;
-	--bg-secondary: #000000;
+	--bg-primary: #36393f;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 html, body{
@@ -42,7 +44,7 @@ header {
 }
 
 .filler1 {
-	height: 80%;
+	height: 70%;
 	margin-left: 10rem;
 }
 
@@ -85,6 +87,31 @@ header {
 }
 .filler1 .k {
 	margin-left: 11rem
+}
+
+.flecha {
+	height: 10%;
+	/*background-color: green;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flecha ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flecha a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.flecha img {
+	height: 5rem
 }
 
 .formulario {
